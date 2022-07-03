@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/customcss.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/41e4d555cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+    <!-- formulário de Login -->
+   <form action="dashboard.html" method="post">
+        <div class="container">
+            <!-- credits @sam_tesi -->
+            <img src="./assets/naruto.png" class="center">
+            <label for="username"><b>Nome de usuário</b></label>
+            <input type="text" placeholder="Digite o nome de usuário" name="username" required>
+
+            <label for="password"><b>Senha</b></label>
+            <input type="password" placeholder="Digite sua senha" name="password" required>
+            
+            <div class="d-grid gap-2 col-6 mx-auto"> 
+                <button type="submit">Login</button>
+            </div>
+        <p class="ou"> Ou </p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <a href="#" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i> Login com Facebook
+            </a> 
+            <a href="#" class="google btn">
+                <i class="fa fa-google fa-fw"></i> Login com Google+
+            </a> 
+        </div>   
+    </form>
+</body>
+</html>
