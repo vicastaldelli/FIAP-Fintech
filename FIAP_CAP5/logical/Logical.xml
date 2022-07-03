@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="896781F0-CD86-1408-4299-708B12D5FBDF" mainViewID="9FAA4A62-14D5-B3E7-CB0A-F75C585D8B11">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 00:12:02 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

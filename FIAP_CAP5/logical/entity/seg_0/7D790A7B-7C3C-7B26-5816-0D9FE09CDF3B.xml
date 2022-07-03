@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D790A7B-7C3C-7B26-5816-0D9FE09CDF3B" name="CONTATO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 01:29:07 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="EFD3EEBD-8060-971F-C2EF-2F042542F63C">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 01:29:21 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="FC7B90A7-7DD7-AA9D-4216-F423489144BF">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 01:29:21 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACCA9815-FEB1-25A1-40C4-77E07CF5B4DC" name="CONTATO PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 01:29:30 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFD3EEBD-8060-971F-C2EF-2F042542F63C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

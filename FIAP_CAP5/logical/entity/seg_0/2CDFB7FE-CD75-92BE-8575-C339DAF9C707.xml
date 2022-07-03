@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CDFB7FE-CD75-92BE-8575-C339DAF9C707" name="C_CIDADE">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:26:47 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cidade" id="07E98B64-9B8A-EADD-246C-CB1ABC878C61">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:26:53 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="48E8886F-4E0A-6851-A926-B4F5A2FFD3AA">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:26:53 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="700C3A08-A6AB-29A3-D061-A3DBCA23BC31">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:26:53 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="C82BFB51-C621-EFE2-4ECC-82D4B28C93AA">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:28:45 UTC</createdTime>
+<generatorID>439A30CE-AB56-9F1B-9B9E-384E9F3BBF2E</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>B793D859-DEB9-E494-D880-2659ACCB5732</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado1" id="F0C264CF-8237-0444-E89E-8753E694F8C9">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:28:58 UTC</createdTime>
+<generatorID>A5F2D755-248C-E733-01B0-1C273DC0042A</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>0B9DB61E-4339-06B6-E29D-24C35FA24D77</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD0E7381-2BB0-9F87-31D7-5CBE5DC2D483" name="C_CIDADE PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:27:18 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07E98B64-9B8A-EADD-246C-CB1ABC878C61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

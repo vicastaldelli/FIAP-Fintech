@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D188E26A-7C38-5C34-8EFD-CD8FAE3269DC" name="C_ESTADO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:27:22 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_estado" id="0B9DB61E-4339-06B6-E29D-24C35FA24D77">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:27:31 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="8C4EB95D-81CC-5DB3-0188-CF78AABA7FC2">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:27:31 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="417DAC13-22F2-102E-037C-ACCD804AF88A">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:27:31 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidade" id="E94A8576-6D48-0A8E-6120-1436102DDEAE">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:28:49 UTC</createdTime>
+<generatorID>A5F2D755-248C-E733-01B0-1C273DC0042A</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>07E98B64-9B8A-EADD-246C-CB1ABC878C61</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pais" id="B9232485-DFFA-201D-68D2-1A0A3FAE9EF6">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:29:01 UTC</createdTime>
+<generatorID>732C872F-8829-9F9F-CFAC-C0BFCD4EE4F5</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>D1FE1F1D-23C9-3A20-DDA5-AF7459C5E084</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20C0E6DC-E45F-1025-4CD3-7C5EB67DB8A6" name="C_ESTADO PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:27:35 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B9DB61E-4339-06B6-E29D-24C35FA24D77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BA22FE5-287B-7B03-FDA9-32F4BEAA95E9" name="C_PAIS">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:27:59 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pais" id="D1FE1F1D-23C9-3A20-DDA5-AF7459C5E084">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:28:10 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pais" id="8646212B-CB62-0611-D344-782EC3037E04">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:28:04 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="E5D42AE7-776F-D8F6-904C-548741EBB335">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:28:52 UTC</createdTime>
+<generatorID>732C872F-8829-9F9F-CFAC-C0BFCD4EE4F5</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>0B9DB61E-4339-06B6-E29D-24C35FA24D77</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B61C3331-9073-D199-332A-E0717F5875BF" name="C_PAIS PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:28:16 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1FE1F1D-23C9-3A20-DDA5-AF7459C5E084</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

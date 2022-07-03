@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CCFE05A-9A87-F76E-E191-A36AD5F8F612" name="C_TIPO_LOGRADOURO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:21:36 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_logradouro" id="01ADA26B-B3D6-95D5-C5BE-42C52D782C69">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:21:44 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_logradouro" id="19F7C970-0806-D820-EE01-63EEB44F15D8">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:21:44 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="D34217CE-3F20-619F-A6CD-7D2F5EC7D24F">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:24:09 UTC</createdTime>
+<generatorID>02DCAC43-E94F-637B-C59B-CF85D1AC6A55</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>8659A396-6762-42E9-5291-FEF43B3FE54F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="6343CA9A-A87F-5121-0061-2456B360FD41">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:24:16 UTC</createdTime>
+<generatorID>C20BFB2F-17AC-67C8-5C0A-A1245ADFFA25</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>B6BEAF29-2EE5-50D9-D8EF-2BFDFFFA74EE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="039811B3-2B23-C1EE-0CBD-E19BCB4F302D" name="C_TIPO_LOGRADOURO PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:22:15 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01ADA26B-B3D6-95D5-C5BE-42C52D782C69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

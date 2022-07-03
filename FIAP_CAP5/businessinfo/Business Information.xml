@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4F5BE0B6-5FF7-7F90-425E-52F357928126">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 00:12:03 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79A61229-944B-842F-A99F-B7D3EA882109" name="C_TIPO_FONE">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:14:17 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_fone" id="6CDFAC58-9881-5221-6BF5-F2C6F622E2A1">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:14:25 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_fone" id="98115E42-85E5-2F7D-10A5-446CFE44A32C">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:14:25 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_fone_completo" id="22C3E2FF-C449-91F9-8A2E-FD3EBFBD4463">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:14:59 UTC</createdTime>
+<generatorID>033ACDC7-F483-A9DF-F886-67F65E479B72</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>198A555E-7B26-499E-F220-70D7FACD7930</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato_1" id="EB44754D-7781-6C5F-C84E-8F4944E9730B">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:14:59 UTC</createdTime>
+<generatorID>033ACDC7-F483-A9DF-F886-67F65E479B72</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>F816E088-D434-93E4-8880-45DD0949B2B3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_fone_completo1" id="D1D4DC73-8439-2E81-D24E-2058489D3B8B">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:17:44 UTC</createdTime>
+<generatorID>033ACDC7-F483-A9DF-F886-67F65E479B72</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>3E2B0D2A-1EC5-6B34-BB43-CC9060922A7A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76803ABB-CA07-1D10-CE19-44614F7980F9" name="C_TIPO_FONE PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:14:31 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CDFAC58-9881-5221-6BF5-F2C6F622E2A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="7B3383BA-DD50-B625-CB00-B3C5F5EE310B">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:13:11 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<sourcePk>ACCA9815-FEB1-25A1-40C4-77E07CF5B4DC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7D790A7B-7C3C-7B26-5816-0D9FE09CDF3B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8DC169AB-5776-DA07-C69A-EE5A64BA259D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

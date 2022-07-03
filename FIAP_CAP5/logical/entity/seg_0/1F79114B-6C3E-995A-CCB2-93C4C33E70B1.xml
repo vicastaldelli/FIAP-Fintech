@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F79114B-6C3E-995A-CCB2-93C4C33E70B1" name="C_NOME_LOGRADOURO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:22:49 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_logradouro" id="B6BEAF29-2EE5-50D9-D8EF-2BFDFFFA74EE">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:23:05 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_logradouro" id="F2BAFD61-2AA3-0469-A63F-A7CF6F6FB503">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:24:14 UTC</createdTime>
+<generatorID>C20BFB2F-17AC-67C8-5C0A-A1245ADFFA25</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>01ADA26B-B3D6-95D5-C5BE-42C52D782C69</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5911601B-30F6-3DA4-442E-12850BBB3F4A" name="C_NOME_LOGRADOURO PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:23:12 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6BEAF29-2EE5-50D9-D8EF-2BFDFFFA74EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

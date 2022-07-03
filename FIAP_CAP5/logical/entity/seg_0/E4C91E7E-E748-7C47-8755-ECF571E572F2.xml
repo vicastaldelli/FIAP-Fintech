@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4C91E7E-E748-7C47-8755-ECF571E572F2" name="C_TELEFONE">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:11:51 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_fone_completo" id="198A555E-7B26-499E-F220-70D7FACD7930">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:11:59 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_fone" id="7CD45E14-27CE-14A9-45EE-381F92CFB1A4">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:11:59 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="794F39AB-14BE-3BB1-3973-507522925A28">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:12:00 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="67025A62-5BF4-C297-94A3-40901B23B8C1">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:12:22 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="36BC6148-7552-63FB-D425-0C912EB28ED0">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:12:31 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato_1" id="F816E088-D434-93E4-8880-45DD0949B2B3">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:13:25 UTC</createdTime>
+<generatorID>9F4559E7-492B-FBEC-4F95-D0A72BB5A28B</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>65FE3999-25FE-900D-0226-6B5B808AEC2C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_fone1" id="484046D7-441E-657C-5F78-72FF97B69364">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:15:26 UTC</createdTime>
+<generatorID>033ACDC7-F483-A9DF-F886-67F65E479B72</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>6CDFAC58-9881-5221-6BF5-F2C6F622E2A1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_fone_completo1" id="3E2B0D2A-1EC5-6B34-BB43-CC9060922A7A">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:17:44 UTC</createdTime>
+<generatorID>9F4559E7-492B-FBEC-4F95-D0A72BB5A28B</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>EE5586F4-80EF-A69A-EA99-C0D27CED35BD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3647B2B6-1F05-335B-5DC7-2DAF43513B49" name="C_TELEFONE PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:12:08 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>198A555E-7B26-499E-F220-70D7FACD7930</attributeRef>
+<attributeRef>F816E088-D434-93E4-8880-45DD0949B2B3</attributeRef>
+<attributeRef>3E2B0D2A-1EC5-6B34-BB43-CC9060922A7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

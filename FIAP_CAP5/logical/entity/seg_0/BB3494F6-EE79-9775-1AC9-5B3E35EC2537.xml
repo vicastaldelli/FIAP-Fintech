@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB3494F6-EE79-9775-1AC9-5B3E35EC2537" name="C_CONTATO_ENDERECO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:18:25 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="4C48F085-917E-54F1-9FF8-93044C739B50">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:20:53 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_endereco" id="CD61CC27-D468-DC5B-7CCB-53F193FFCB8D">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:20:53 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato" id="7ADCC58A-034D-1AA1-5738-4856EA9B75EB">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:23:29 UTC</createdTime>
+<generatorID>5A4E93A9-C62B-020C-240D-55821C37C289</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>EFD3EEBD-8060-971F-C2EF-2F042542F63C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="ECE9BA34-48F7-50DE-EEFA-758984838914">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:24:00 UTC</createdTime>
+<generatorID>5795868A-E9E8-85B6-9DC0-24EB1669D09D</generatorID>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<referedAttribute>8659A396-6762-42E9-5291-FEF43B3FE54F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C3EAFAA-5876-33B3-B872-6A519BB802F0" name="C_CONTATO_ENDERECO PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-17 02:21:07 UTC</createdTime>
+<ownerDesignName>FIAP_CAP5</ownerDesignName>
+<engineerTo>
+<item key="D8B10439-9E6C-AA0C-53F2-BA5A37F4029B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C48F085-917E-54F1-9FF8-93044C739B50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
