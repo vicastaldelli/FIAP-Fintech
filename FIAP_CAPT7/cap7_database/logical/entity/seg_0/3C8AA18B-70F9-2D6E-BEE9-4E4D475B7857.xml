@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C8AA18B-70F9-2D6E-BEE9-4E4D475B7857" name="T_RELATORIO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 02:07:51 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_relatorio" id="81A004F3-E749-8192-4E8E-8C4291F35E4A">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 02:11:00 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_saldo" id="F14F4C30-BD4C-37A3-83E5-27AD5FC48C89">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 02:11:38 UTC</createdTime>
+<generatorID>800D8B35-A4B9-7AE3-08A2-3E6A719E7FB1</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>79A59669-3CA0-78B6-56B8-0C70AEB2587E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_despesa" id="C03D0142-1F10-E1F5-4226-3B68D74D0BF3">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 02:10:41 UTC</createdTime>
+<generatorID>BC229ADA-6F48-F2EC-55E6-2142A16A1A69</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>CE93E39D-6B7F-7F6E-3AC3-40B2FDF07D5A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_receita" id="1D5F0525-D307-4E61-C8FD-8560A9AF9F27">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 02:10:47 UTC</createdTime>
+<generatorID>CD748098-176A-A3D0-E70B-2198D20ACB6E</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>F281D24F-3B06-C6B3-A78F-F0EAC4748024</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_mensal" id="63373247-B924-E9DE-F506-1D153246DC60">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 02:10:51 UTC</createdTime>
+<generatorID>FEE896D5-0316-714F-ED8F-2959C67F66DC</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>8832CBE4-68F4-5381-7F1C-D0684EEF11CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

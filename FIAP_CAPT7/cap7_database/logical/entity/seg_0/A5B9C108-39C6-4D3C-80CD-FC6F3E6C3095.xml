@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5B9C108-39C6-4D3C-80CD-FC6F3E6C3095" name="T_RECEITA">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:47 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_receita" id="F281D24F-3B06-C6B3-A78F-F0EAC4748024">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:47 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_valor" id="DF485E7D-AADA-DFA6-8E1E-5819D1ECA295">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:47 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_titulo" id="A929C555-1DAC-F9BF-B30D-CC54A35E7FC4">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:47 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_descricao" id="DE9D7FD2-1C13-EF1E-1E74-3DFC65A3A811">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:47 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_criacao" id="BF0F563E-BEB8-0176-D6D9-BD7A397772B3">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:47 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_saldo" id="0FB586ED-69B8-EDA4-C7C5-AFD3CD4B7926">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:52:24 UTC</createdTime>
+<generatorID>A5501130-9BD5-4C35-9123-93C2037BC98B</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>79A59669-3CA0-78B6-56B8-0C70AEB2587E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_rec_categoria" id="9FB1F40B-6AEB-3883-C507-DA3D97E78EEB">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:53:41 UTC</createdTime>
+<generatorID>DA6793D8-91B4-D863-8889-5408944CED11</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>591CBB3A-1199-C32F-B8E6-AB09C1D0240D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CC560C2-AF65-4E21-8623-5EF11CD24622" name="T_DESPESA PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:47 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F281D24F-3B06-C6B3-A78F-F0EAC4748024</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

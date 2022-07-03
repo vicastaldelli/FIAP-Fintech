@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DD78D2C-D760-7F0A-6DE6-C5E0490F4744" containerWithKeyObject="6A7EF1C4-60FB-E737-3BC2-4943E902F82D" localFKIndex="45FA6319-6EAE-E20A-E649-D6F170631286" name="T_SAL_TRANSACAO_FK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:21:53 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<referredTableLongName>T_TRANSACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4472FEBA-3881-D498-DE76-92DC9100501A</referredTableID>
+<keyObject>F54384D4-4EAC-8EC8-0028-DBE263162229</keyObject>
+<referredKeyID>F54384D4-4EAC-8EC8-0028-DBE263162229</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_transacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="265C5262-1AEA-9E68-6FA4-D8181C0AB2E3" name="T_CADASTRO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:34:33 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="A0968369-1BA0-5FBB-A077-0CF0CD7A8946">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:34:43 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_email" id="8A19F17B-649B-BBA7-FFF1-3F641975B127">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:34:43 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_senha" id="50EBE168-B446-74C3-1E61-7373C610F73F">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:34:44 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_usuario" id="FAF7D7E3-27EE-53E5-7488-992B5D1C0059">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:56:50 UTC</createdTime>
+<generatorID>D72FA6FE-30A0-21E6-AC9C-8537F3EFBFC2</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>CC42E3C4-6AA8-FB8E-9541-32F961D2B0A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4CA6F5D-A9BE-DA7B-29EC-DD08DBAEAFE3" name="T_CADASTRO PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:35:04 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0968369-1BA0-5FBB-A077-0CF0CD7A8946</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

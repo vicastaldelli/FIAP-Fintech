@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A925A67C-F165-16CF-6F1B-42DC4E3368A0" name="T_DESPESA">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:36:48 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_despesa" id="CE93E39D-6B7F-7F6E-3AC3-40B2FDF07D5A">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:05 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_valor" id="712FCE81-67BA-05C9-5832-3ADC0F1AAEDE">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:05 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_titulo" id="5D5A9810-9D9A-5A33-122E-7BCA752232AE">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:06 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_descricao" id="044C32B3-B1D0-45F9-D4BD-FC1FE91E6002">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:21 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_criacao" id="A2157232-649E-CFE1-4C26-5EB118D4A90E">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:26 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_desp_categoria" id="644AE06F-C41A-C01F-9F32-2590094C1EC9">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:52:52 UTC</createdTime>
+<generatorID>238ADA6F-B6B9-536B-9862-0EEB151BBEED</generatorID>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<referedAttribute>A3226105-347E-AF20-2AA2-A788B9CF5C82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31170BAF-0878-0F64-972C-437BB5F9EF74" name="T_DESPESA PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 01:37:11 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<engineerTo>
+<item key="21DEBDB1-AAA3-8BB0-6902-5D6E81FF9212" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE93E39D-6B7F-7F6E-3AC3-40B2FDF07D5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

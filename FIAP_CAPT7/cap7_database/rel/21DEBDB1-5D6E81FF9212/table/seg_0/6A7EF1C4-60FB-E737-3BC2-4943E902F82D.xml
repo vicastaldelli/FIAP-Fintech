@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A7EF1C4-60FB-E737-3BC2-4943E902F82D" name="T_SALDO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:11:52 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_saldo" id="9F5C8479-2774-BCF4-A9D0-34D4FD110816">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:17:40 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_saldo" id="963CB43F-2C35-5531-0F7C-6EBD8EBC95B5">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:17:40 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TRANSACAO_cd_transacao" id="E6C459E7-3B89-7D6F-F56B-99AF5C14186A">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:21:53 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DD78D2C-D760-7F0A-6DE6-C5E0490F4744" referredColumn="E59D17CE-9A1A-67B7-CF8C-0C93DA86C71F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF86BC00-4EE0-0D6F-8139-A51AF6BEC1C4" name="T_SALDO_PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:18:13 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F5C8479-2774-BCF4-A9D0-34D4FD110816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45FA6319-6EAE-E20A-E649-D6F170631286" name="T_SAL_TRANSACAO_FK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:21:53 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C459E7-3B89-7D6F-F56B-99AF5C14186A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB84595E-4FE8-1E66-B11A-2CFB39FE5023" name="T_DADOS_USUARIO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 01:19:01 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="13CC08C5-5B33-D2B5-14AD-8DDA3D0383F6">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 01:24:36 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_email" id="DD723B70-F8DC-029A-D813-58132FF1826F">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 01:24:36 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_senha" id="A6BD8139-12A4-2D36-827E-27DB6CFD0AF0">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 01:24:36 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>34 CHAR</dataTypeSize>
+<ownDataTypeParameters>34 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCEFF092-B28A-C354-A19E-D503B5CF9130" name="T_DADOS_USUARIO_PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 01:24:36 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13CC08C5-5B33-D2B5-14AD-8DDA3D0383F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

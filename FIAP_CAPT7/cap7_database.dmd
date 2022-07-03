@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cap7_database" id="5BA4860C-900B-6DE2-C4F4-713884D87DD0" version="3.5">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-24 00:06:10 UTC</createdTime>
+<ownerDesignName>FIAP_CAP7_DATABASE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5BA4860C-900B-6DE2-C4F4-713884D87DD0</designId>
+</OSDM_Design>

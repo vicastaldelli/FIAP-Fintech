@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4472FEBA-3881-D498-DE76-92DC9100501A" name="T_TRANSACAO">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 01:48:14 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_transacao" id="E59D17CE-9A1A-67B7-CF8C-0C93DA86C71F">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:06:57 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_transacao" id="EED30021-6D0D-C5FD-06F7-D2053D8AFF83">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:06:57 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_valor" id="216823F0-93BC-26E3-203C-3FE9721EC1A9">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:06:57 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_transacao" id="C5D95B2F-57F2-DD76-771A-94E32A3A58D8">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:06:57 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CATEGORIA_cd_categoria" id="CC8DDFD8-E373-AA25-8B35-2AEE6381EA8B">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:20:05 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="589D4C86-09B6-0E35-77E6-BCD955B4BBD6" referredColumn="A956760B-1026-D1EA-89DD-D85B74B9546B"/>
+</associations>
+</Column>
+<Column name="T_USUARIO_cd_cpf_usuario" id="768F0F19-84C9-CFBB-BDA2-4E5005919107">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:21:01 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F128473-7475-5F43-50DC-8AAFBA524CB3" referredColumn="84EF6485-47C3-C61A-556E-FC8E5379E628"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F54384D4-4EAC-8EC8-0028-DBE263162229" name="T_TRANSACAO_PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:06:57 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E59D17CE-9A1A-67B7-CF8C-0C93DA86C71F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53CD43F3-080D-6C86-9324-630F6A697D63" name="T_TRANS_CATEGORIA_FK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:20:05 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8DDFD8-E373-AA25-8B35-2AEE6381EA8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="727131EB-E571-8BA2-399D-9A7ADC128DA6" name="T_TRANS_USUARIO_FK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:21:01 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="768F0F19-84C9-CFBB-BDA2-4E5005919107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

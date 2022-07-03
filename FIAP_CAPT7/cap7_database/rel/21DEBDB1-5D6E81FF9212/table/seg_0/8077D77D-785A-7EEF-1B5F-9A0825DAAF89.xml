@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8077D77D-785A-7EEF-1B5F-9A0825DAAF89" name="T_CATEGORIA">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:09:07 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_categoria" id="A956760B-1026-D1EA-89DD-D85B74B9546B">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:11:08 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_categoria" id="7FD21D99-D9AD-DAEC-7A56-41B820D5765D">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:11:08 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_categoria" id="71C4E968-8155-84B0-8068-72736C66F402">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:11:18 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B74BB2F-8110-AA12-F382-042BE00B8303" name="T_CATEGORIA_PK">
+<createdBy>vicas</createdBy>
+<createdTime>2022-05-25 02:11:18 UTC</createdTime>
+<ownerDesignName>cap7_database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A956760B-1026-D1EA-89DD-D85B74B9546B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
